@@ -12,8 +12,6 @@ const propsUserCard = {
             <GreetingBinjai/>
             <GreetingBinjai/>
             <GreetingBinjai/>
-            <GreetingBinjai/>
-            <GreetingBinjai/>
             <UserCard 
 	            nama="Payaaa" 
 	            nim="2457301055"

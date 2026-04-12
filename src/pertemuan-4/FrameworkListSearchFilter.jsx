@@ -25,10 +25,13 @@ export default function FrameworkListSearchFilter() {
     });
   };
 
-  /** 2. Deklarasi pengambilan unique tags **/
-  const allTags = [
-    ...new Set(frameworkData.flatMap((framework) => framework.tags)),
-  ];
+  // /** 2. Deklarasi pengambilan unique tags **/
+  // const allTags = [
+  //   ...new Set(frameworkData.flatMap((framework) => framework.tags)),
+  // ];
+
+
+
 
   /** 3. Deklarasi Logic Search & Filter **/
   const _searchTerm = dataForm.searchTerm.toLowerCase();
