@@ -158,7 +158,7 @@
     "description": "Pulau-pulau indah dengan pantai pristine dan formasi batu granit unik.",
     "category": "Pantai",
     "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=300&fit=crop",
+    "image": "/img/Destinasi-1.jpg",
     "location": {
       "city": "Belitung",
       "province": "Kepulauan Bangka Belitung",
@@ -183,7 +183,7 @@
     "description": "Jantung budaya Jawa dengan sejarah kaya, seni, dan kerajinan tradisional.",
     "category": "Kota",
     "rating": 4.8,
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+    "image": "/img/Destinasi-2.jpg",
     "location": {
       "city": "Yogyakarta",
       "province": "Daerah Istimewa Yogyakarta",
@@ -208,7 +208,7 @@
     "description": "Alami petualangan gurun dengan naik unta tradisional dan pemandangan matahari terbenam.",
     "category": "Petualangan",
     "rating": 4.5,
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+    "image": "/img/Destinasi-3.jpg",
     "location": {
       "city": "Jimbaran",
       "province": "Bali",
@@ -233,7 +233,7 @@
     "description": "Hutan hujan tropis yang subur dengan jalur trekking dan pertemuan satwa liar.",
     "category": "Alam & Satwa Liar",
     "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+    "image": "/img/Destinasi-4.jpg",
     "location": {
       "city": "Ubud",
       "province": "Bali",
@@ -258,7 +258,7 @@
     "description": "Kompleks candi Hindu dengan arsitektur megah dan signifikansi budaya.",
     "category": "Bersejarah",
     "rating": 4.8,
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+    "image": "/img/Destinasi-5.jpg",
     "location": {
       "city": "Yogyakarta",
       "province": "Daerah Istimewa Yogyakarta",
@@ -283,7 +283,7 @@
     "description": "Gunung berapi unik dengan api belerang biru dan danau kawah.",
     "category": "Pegunungan",
     "rating": 4.9,
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+    "image": "/img/Destinasi-6.jpg",
     "location": {
       "city": "Banyuwangi",
       "province": "Jawa Timur",
@@ -308,7 +308,7 @@
     "description": "Pusat keanekaragaman hayati dengan menyelam dan snorkeling kelas dunia.",
     "category": "Pulau",
     "rating": 5.0,
-    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=300&fit=crop",
+    "image": "/img/Destinasi-1.jpg",
     "location": {
       "city": "Sorong",
       "province": "Papua Barat",
@@ -333,7 +333,7 @@
     "description": "Gunung tertinggi di Jawa dengan jalur trekking yang menantang.",
     "category": "Pegunungan",
     "rating": 4.6,
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+    "image": "/img/Destinasi-2.jpg",
     "location": {
       "city": "Lumajang",
       "province": "Jawa Timur",
@@ -358,7 +358,7 @@
     "description": "Taman yang luas dengan savana, satwa liar, dan pemandangan panorama.",
     "category": "Alam & Satwa Liar",
     "rating": 4.5,
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+    "image": "/img/Destinasi-3.jpg",
     "location": {
       "city": "Banyuwangi",
       "province": "Jawa Timur",
@@ -383,7 +383,7 @@
     "description": "Serangkaian air terjun indah dikelilingi oleh penghijauan yang subur.",
     "category": "Alam & Satwa Liar",
     "rating": 4.7,
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+    "image": "/img/Destinasi-4.jpg",
     "location": {
       "city": "Lombok",
       "province": "Nusa Tenggara Barat",
@@ -408,7 +408,7 @@
     "description": "Kota pelabuhan bersejarah dengan arsitektur kolonial Belanda dan warisan yang kaya.",
     "category": "Bersejarah",
     "rating": 4.4,
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+    "image": "/img/Destinasi-5.jpg",
     "location": {
       "city": "Serang",
       "province": "Banten",
@@ -433,7 +433,7 @@
     "description": "Santuari orangutan di hutan hujan Borneo dengan pariwisata yang bertanggung jawab.",
     "category": "Alam & Satwa Liar",
     "rating": 4.8,
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+    "image": "/img/Destinasi-6.jpg",
     "location": {
       "city": "Palangkaraya",
       "province": "Kalimantan Tengah",
@@ -458,7 +458,7 @@
     "description": "Candi ikonik yang terletak di formasi batu di laut.",
     "category": "Bersejarah",
     "rating": 4.8,
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+    "image": "/img/Destinasi-1.jpg",
     "location": {
       "city": "Tabanan",
       "province": "Bali",
@@ -483,7 +483,7 @@
     "description": "Gunung suci dengan danau kawah dan trekking multi-hari yang menantang.",
     "category": "Pegunungan",
     "rating": 4.9,
-    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=500&h=300&fit=crop",
+    "image": "/img/Destinasi-2.jpg",
     "location": {
       "city": "Lombok",
       "province": "Nusa Tenggara Barat",

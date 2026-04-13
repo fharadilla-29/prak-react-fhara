@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import destinationsData from "./destinations.json";
 
 export default function DestinationsApp() {

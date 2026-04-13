@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function ResponsiveDesign() {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-6 md:px-12">

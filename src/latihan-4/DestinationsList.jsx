@@ -1,3 +1,4 @@
+import React from "react";
 import destinationsData from "./destinations.json";
 
 export default function DestinationsList() {
