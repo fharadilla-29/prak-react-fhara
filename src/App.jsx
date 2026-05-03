@@ -5,6 +5,7 @@ import { Routes, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import AuthLayout from "./layouts/AuthLayout";
+import ErrorLayout from "./layouts/ErrorLayout";
 import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
 import Forgot from "./pages/auth/Forgot";
@@ -13,6 +14,7 @@ import Loading from "./components/Loading";
 const Dashboard = React.lazy(() => import("./pages/Main/Dashboard"));
 const Customers = React.lazy(() => import("./pages/Main/Customers"));
 const Orders = React.lazy(() => import("./pages/Main/Orders"));
+const Menu = React.lazy(() => import("./pages/main/Menu"));
 const NotFound = React.lazy(() => import("./pages/main/NotFound"));
 const ErrorPage = React.lazy(() => import("./pages/main/ErrorPage"));
 const MainLayout = React.lazy(() => import("./layouts/MainLayout")); 
@@ -30,6 +32,7 @@ export default function App() {
           <Route path="/" element={<Dashboard />} />
           <Route path="/orders" element={<Orders />} />
           <Route path="/customers" element={<Customers />} />
+          <Route path="/menu" element={<Menu />} />
 
           {/* Error Routes */}
           <Route
@@ -89,3 +92,9 @@ export default function App() {
     </Suspense>
   );
 }
+
+
+
+
+
+   

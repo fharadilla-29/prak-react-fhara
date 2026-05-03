@@ -13,7 +13,7 @@ export default function ErrorPage({ code, title, description, image }) {
             <p className="text-gray-500 mt-4 max-w-md">{description}</p>
             <Link 
                 to="/" 
-                className="mt-8 bg-hijau text-white px-6 py-3 rounded-xl font-bold hover:shadow-lg transition-all"
+                className="mt-8 bg-amber-700 text-white px-6 py-3 rounded-xl font-bold hover:shadow-lg transition-all"
             >
                 Back to Dashboard
             </Link>

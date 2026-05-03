@@ -1,6 +1,6 @@
 import { useState } from "react";
 import PageHeader from "../../components/PageHeader";
-import orderData from "../../data/Orders.json";
+import orderData from "../../data/orders.json";
 
 export default function Orders() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -10,7 +10,7 @@ export default function Orders() {
       <PageHeader title="Orders" breadcrumb="Order List">
         <button 
           onClick={() => setIsModalOpen(true)}
-          className="bg-hijau text-white px-4 py-2 rounded-lg font-bold hover:bg-green-600 transition-all"
+          className="bg-amber-700 text-white px-4 py-2 rounded-lg font-bold hover:bg-amber-800 transition-all"
         >
           + Add New Order
         </button>
@@ -36,7 +36,7 @@ export default function Orders() {
               </div>
               <div className="flex justify-end space-x-3 mt-8">
                 <button type="button" onClick={() => setIsModalOpen(false)} className="px-4 py-2 text-gray-500 font-medium">Cancel</button>
-                <button type="submit" className="bg-hijau text-white px-6 py-2 rounded-xl font-bold">Add Order</button>
+                <button type="submit" className="bg-amber-700 text-white px-6 py-2 rounded-xl font-bold">Add Order</button>
               </div>
             </form>
           </div>
@@ -50,8 +50,10 @@ export default function Orders() {
             {orderData.map((order) => (
               <tr key={order.id} className="border-t border-gray-50">
                 <td className="p-4 font-bold">{order.id}</td>
-                <td className="p-4">{order.name}</td>
-                <td className="p-4 font-bold text-gray-800">{order.price}</td>
+                <td className="p-4">{order.customerName}</td>
+                <td className="p-4">{order.product}</td>
+                <td className="p-4 font-bold text-gray-800">{order.totalPrice}</td>
+                <td className="p-4">{order.status}</td>
               </tr>
             ))}
           </tbody>

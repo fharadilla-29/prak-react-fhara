@@ -31,21 +31,21 @@ export default function Header({ onSearchOpen }) {
                 {/* Icon & Profile Section */}
                 <div className="flex items-center space-x-4">
                     {/* Icons */}
-                    <div className="relative p-3 bg-blue-100 rounded-2xl text-blue-500 cursor-pointer">
+                    <div className="relative p-3 bg-amber-100 rounded-2xl text-amber-700 cursor-pointer">
                         <FaBell />
-                        <span className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 bg-blue-200 rounded-full px-2 py-1 text-xs">50</span>
+                        <span className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 bg-amber-200 rounded-full px-2 py-1 text-xs">50</span>
                     </div>
-                    <div className="p-3 bg-blue-100 rounded-2xl cursor-pointer">
+                    <div className="p-3 bg-amber-100 rounded-2xl cursor-pointer">
                         <FcAreaChart />
                     </div>
-                    <div className="p-3 bg-red-100 rounded-2xl text-red-500 cursor-pointer">
+                    <div className="p-3 bg-amber-100 rounded-2xl text-amber-700 cursor-pointer">
                         <SlSettings />
                     </div>
 
                     {/* Profile Section */}
                     <div className="flex items-center space-x-4 border-l pl-4 border-gray-300">
                         <span>
-                            Hello, <b>Fikri Muhaffizh</b>
+                            Hello, <b>Fhara</b>
                         </span>
                         <img
                             src="/img/fhara.jpeg"
