@@ -2,7 +2,7 @@ import { FaEye } from "react-icons/fa";
 
 export default function RecentOrders() {
     const orders = [
-        { id: "#001", customer: "Fikri Muhaffizh", amount: "Rp. 250.000", status: "Completed", date: "2025-01-10" },
+        { id: "#001", customer: "Fhara Dilla", amount: "Rp. 250.000", status: "Completed", date: "2025-01-10" },
         { id: "#002", customer: "Sarah Johnson", amount: "Rp. 175.000", status: "Pending", date: "2025-01-09" },
         { id: "#003", customer: "Michael Chen", amount: "Rp. 320.000", status: "Completed", date: "2025-01-08" },
         { id: "#004", customer: "Emma Davis", amount: "Rp. 145.000", status: "Cancelled", date: "2025-01-07" },

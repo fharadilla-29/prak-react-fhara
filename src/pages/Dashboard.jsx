@@ -9,6 +9,9 @@ export default function Dashboard() {
                 breadcrumb="Statistics" 
                 buttonText="+ Filter Data" 
             />
+            <div className="p-5">
+                <p className="text-2xl font-bold text-gray-800">Selamat datang dan belajar di dashboard, Fhara Dilla Rizky</p>
+            </div>
             <div id="dashboard-grid" className="p-5 grid sm:grid-cols-2 md:grid-cols-4 gap-4">
                 <div id="dashboard-orders" className="bg-green-200 rounded-lg p-4 flex items-center space-x-4">
                     <div id="orders-icon" className="bg-hijau rounded-full p-4 text-3xl text-white ">

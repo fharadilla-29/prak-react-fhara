@@ -45,7 +45,7 @@ export default function Header({ onSearchOpen }) {
                     {/* Profile Section */}
                     <div className="flex items-center space-x-4 border-l pl-4 border-gray-300">
                         <span>
-                            Hello, <b>Fikri Muhaffizh</b>
+                            Hello, <b>Fhara Dilla</b>
                         </span>
                         <img
                             src="/img/fhara.jpeg"

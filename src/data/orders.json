@@ -1,5 +1,5 @@
 [
-  { "id": "ORD-001", "customerName": "Fikri Muhaffizh", "status": "Completed", "totalPrice": "Rp 1.250.000", "date": "2024-03-01" },
+  { "id": "ORD-001", "customerName": "Fhara Dilla", "status": "Completed", "totalPrice": "Rp 1.250.000", "date": "2024-03-01" },
   { "id": "ORD-002", "customerName": "Fhara Adilla", "status": "Pending", "totalPrice": "Rp 450.000", "date": "2024-03-02" },
   { "id": "ORD-003", "customerName": "Andi Pratama", "status": "Cancelled", "totalPrice": "Rp 200.000", "date": "2024-03-03" },
   { "id": "ORD-004", "customerName": "Siti Aminah", "status": "Completed", "totalPrice": "Rp 3.100.000", "date": "2024-03-04" },
