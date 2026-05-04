@@ -2,21 +2,21 @@ import { FaEye } from "react-icons/fa";
 
 export default function RecentOrders() {
     const orders = [
-        { id: "#001", customer: "Budi Santoso", amount: "Rp. 85.000", status: "Completed", date: "2025-01-10" },
-        { id: "#002", customer: "Siti Nurhaliza", amount: "Rp. 120.000", status: "Pending", date: "2025-01-09" },
-        { id: "#003", customer: "Ahmad Rizki", amount: "Rp. 150.000", status: "Completed", date: "2025-01-08" },
-        { id: "#004", customer: "Dewi Lestari", amount: "Rp. 95.000", status: "Cancelled", date: "2025-01-07" },
-        { id: "#005", customer: "Ricky Johnson", amount: "Rp. 110.000", status: "Completed", date: "2025-01-06" },
+        { id: "#001", customer: "Fikri Muhaffizh", amount: "Rp. 250.000", status: "Completed", date: "2025-01-10" },
+        { id: "#002", customer: "Sarah Johnson", amount: "Rp. 175.000", status: "Pending", date: "2025-01-09" },
+        { id: "#003", customer: "Michael Chen", amount: "Rp. 320.000", status: "Completed", date: "2025-01-08" },
+        { id: "#004", customer: "Emma Davis", amount: "Rp. 145.000", status: "Cancelled", date: "2025-01-07" },
+        { id: "#005", customer: "Alex Wilson", amount: "Rp. 280.000", status: "Completed", date: "2025-01-06" },
     ];
 
     const getStatusColor = (status) => {
         switch (status) {
             case "Completed":
-                return "bg-amber-100 text-amber-700";
+                return "bg-green-100 text-green-700";
             case "Pending":
                 return "bg-yellow-100 text-yellow-700";
             case "Cancelled":
-                return "bg-orange-100 text-orange-700";
+                return "bg-red-100 text-red-700";
             default:
                 return "bg-gray-100 text-gray-700";
         }

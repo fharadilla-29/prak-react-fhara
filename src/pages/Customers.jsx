@@ -12,7 +12,7 @@ export default function Customers() {
         {/* 3. Pasang fungsi onClick untuk buka modal */}
         <button 
           onClick={() => setIsModalOpen(true)}
-          className="bg-amber-700 text-white px-4 py-2 rounded-lg font-bold hover:bg-amber-800 transition-all"
+          className="bg-hijau text-white px-4 py-2 rounded-lg font-bold hover:bg-green-600 transition-all"
         >
           + Add New Customer
         </button>
@@ -26,15 +26,15 @@ export default function Customers() {
             <form className="space-y-4">
               <div>
                 <label className="block text-sm font-semibold mb-1">Full Name</label>
-                <input type="text" className="w-full border rounded-xl p-3 focus:ring-2 focus:ring-amber-200 outline-none" placeholder="Enter name" />
+                <input type="text" className="w-full border rounded-xl p-3 focus:ring-2 focus:ring-green-200 outline-none" placeholder="Enter name" />
               </div>
               <div>
                 <label className="block text-sm font-semibold mb-1">Email Address</label>
-                <input type="email" className="w-full border rounded-xl p-3 focus:ring-2 focus:ring-amber-200 outline-none" placeholder="email@example.com" />
+                <input type="email" className="w-full border rounded-xl p-3 focus:ring-2 focus:ring-green-200 outline-none" placeholder="email@example.com" />
               </div>
               <div className="flex justify-end space-x-3 mt-8">
                 <button type="button" onClick={() => setIsModalOpen(false)} className="px-4 py-2 text-gray-500 font-medium">Cancel</button>
-                <button type="submit" className="bg-amber-700 text-white px-6 py-2 rounded-xl font-bold">Save Data</button>
+                <button type="submit" className="bg-hijau text-white px-6 py-2 rounded-xl font-bold">Save Data</button>
               </div>
             </form>
           </div>
@@ -56,7 +56,7 @@ export default function Customers() {
               <tr key={cust.id} className="border-t border-gray-50">
                 <td className="p-4 font-bold text-gray-700">{cust.id}</td>
                 <td className="p-4">{cust.name}</td>
-                <td className="p-4 text-amber-700 font-bold">{cust.loyalty}</td>
+                <td className="p-4 text-hijau font-bold">{cust.loyalty}</td>
               </tr>
             ))}
           </tbody>

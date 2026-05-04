@@ -1,10 +1,11 @@
 import { useState } from "react";
 import PageHeader from "../../components/PageHeader";
 import menuData from "../../data/menu.json";
-import { FiEdit2, FiTrash2, FiPlus } from "react-icons/fi";
+import { FiPlus, FiEdit2, FiTrash2 } from "react-icons/fi";
 
 export default function Menu() {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [hasError] = useState(false);
 
   return (
     <div className="p-4">
@@ -48,7 +49,20 @@ export default function Menu() {
         </div>
       )}
 
+      {/* Error State */}
+      {hasError && (
+        <div className="mt-6 p-8 bg-red-50 border-2 border-red-300 rounded-xl text-center">
+          <div className="text-4xl mb-3">⚠️</div>
+          <h3 className="text-xl font-bold text-red-700 mb-2">Menu Data Tidak Tersedia</h3>
+          <p className="text-red-600 mb-4">Gagal memuat data menu dari server</p>
+          <button className="bg-red-700 text-white px-6 py-2 rounded-lg font-bold hover:bg-red-800 transition-all">
+            Coba Lagi
+          </button>
+        </div>
+      )}
+
       {/* Menu Grid */}
+      {!hasError && (
       <div className="mt-6 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {menuData.map((item) => (
           <div key={item.id} className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow">
@@ -79,6 +93,7 @@ export default function Menu() {
           </div>
         ))}
       </div>
+      )}
     </div>
   );
 }
