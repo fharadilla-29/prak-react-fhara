@@ -78,6 +78,14 @@ export default function Sidebar() {
                             Error 403
                         </NavLink>
                     </li>
+
+                     {/* COMPONENTS */}
+                    <li>
+                        <NavLink id="menu-6" to="/components" className={menuClass}>
+                            <MdSpaceDashboard className="mr-4 text-xl" />
+                            Components
+                        </NavLink>
+                    </li>
                 </ul>
             </div>
 

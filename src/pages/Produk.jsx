@@ -3,6 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 import PageHeader from "../components/PageHeader";
 import Loading from "../components/Loading";
+import Card from "../components/Card";
 
 export default function Produk() {
   const navigate = useNavigate();
@@ -138,7 +139,7 @@ export default function Produk() {
       </div>
 
       {/* PRODUCTS TABLE */}
-      <div className="mt-4 bg-white rounded-xl shadow-sm border overflow-hidden">
+      <Card >
         <div className="overflow-x-auto">
           <table className="w-full text-left">
             <thead>
@@ -199,7 +200,7 @@ export default function Produk() {
             </tbody>
           </table>
         </div>
-      </div>
+      </Card>
     </div>
   );
 }

@@ -10,6 +10,7 @@ import Produk from "./pages/Produk";
 import ErrorPage from "./pages/ErrorPage";
 import Login from "./pages/auth/Login";
 import Loading from "./components/Loading";
+import Components from "./pages/Components";
 
 // Lazy load ProductDetail component
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"));
@@ -34,6 +35,7 @@ export default function App() {
           </Suspense>
         } />
         <Route path="/produk" element={<Produk />} />
+        <Route path="/components" element={<Components />} />
         
         {/* Error Routes */}
         <Route path="/error-400" element={<ErrorPage code="400" title="Bad Request" description="Permintaan tidak dapat diproses oleh server." image="https://illustrations.popsy.co/gray/falling.svg" />} />
