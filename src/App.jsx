@@ -11,6 +11,7 @@ import ErrorPage from "./pages/ErrorPage";
 import Login from "./pages/auth/Login";
 import Loading from "./components/Loading";
 import Components from "./pages/Components";
+import FiturXYZ from "./pages/main/FiturXYZ";
 
 // Lazy load ProductDetail component
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"));
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="/orders" element={<Orders />} />
         <Route path="/customers" element={<Customers />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/fitur-xyz" element={<FiturXYZ />} />
         <Route path="/products/:id" element={
           <Suspense fallback={<Loading />}>
             <ProductDetail />

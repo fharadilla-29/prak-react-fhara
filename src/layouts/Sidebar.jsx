@@ -89,6 +89,14 @@ export default function Sidebar() {
                 </ul>
             </div>
 
+            {/* FITUR XYZ */}
+                    <li>
+                        <NavLink id="menu-6" to="/fitur-xyz" className={menuClass}>
+                            <MdSpaceDashboard className="mr-4 text-xl" />
+                            Fitur XYZ
+                        </NavLink>
+                    </li>
+
             <div id="sidebar-footer" className="mt-auto">
                 <div id="footer-card" className="bg-hijau px-4 py-2 rounded-md shadow-lg mb-10 flex items-center justify-between">
                     <div id="footer-text" className="text-white text-sm">
